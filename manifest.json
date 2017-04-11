@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "LSLP",
+  "description": "Lucas Simpson Link Pusher - This adds the current page to lucassimpsons' list of fun links.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ls_logo_small.png",
+    "default_popup": "ls_linker.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
+
